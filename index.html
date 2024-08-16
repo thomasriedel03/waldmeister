@@ -7,9 +7,10 @@
 
             <script src="./scripts/script.js"></script>
             <script src="./scripts/templates.js"></script>
-            <script src="./scripts/assets.js"></script>
+            <script src="./scripts/stones.js"></script>
 
             <link rel="stylesheet" href="./styles/style.css" />
+            <link rel="stylesheet" href="./styles/grid.css" />
             <link rel="stylesheet" href="./styles/dialog.css" />
             <link rel="stylesheet" href="./styles/buttons.css" />
             <link rel="stylesheet" href="./styles/fonts.css" />
@@ -19,7 +20,9 @@
       <body onload="init()">
             <header></header>
             <div id="content" class="content">
+                  <table id="player-one-stones-table"></table>
                   <div id="grid" class="grid"></div>
+                  <table id="player-two-stones-table"></table>
             </div>
             <footer></footer>
       </body>

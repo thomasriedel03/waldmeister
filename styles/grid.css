@@ -1,0 +1,250 @@
+.grid {
+      display: grid;
+      grid-template-columns: repeat(15, 50px);
+      grid-template-rows: repeat(15, 50px);
+      padding: 32px;
+      column-gap: 3px;
+      row-gap: 15px;
+      justify-content: center;
+      align-content: center;
+      position: relative;
+      background-image: url("./../assets/img/holzbrett.jpg");
+      background-size: cover;
+      background-position: center;
+}
+
+.cell {
+      width: 40px;
+      height: 40px;
+      background-color: rgb(255, 255, 255);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: black;
+}
+
+.hidden {
+      visibility: hidden;
+}
+
+/* Zeile 1 */
+#cell-0 {
+      grid-column: 8 / span 1;
+}
+
+/* Zeile 2 */
+#cell-1 {
+      grid-column: 7 / span 1;
+}
+#cell-2 {
+      grid-column: 9 / span 1;
+}
+
+/* Zeile 3 */
+#cell-3 {
+      grid-column: 6 / span 1;
+}
+#cell-4 {
+      grid-column: 8 / span 1;
+}
+#cell-5 {
+      grid-column: 10 / span 1;
+}
+
+/* Zeile 4 */
+#cell-6 {
+      grid-column: 5 / span 1;
+}
+#cell-7 {
+      grid-column: 7 / span 1;
+}
+#cell-8 {
+      grid-column: 9 / span 1;
+}
+#cell-9 {
+      grid-column: 11 / span 1;
+}
+
+/* Zeile 5 */
+#cell-10 {
+      grid-column: 4 / span 1;
+}
+#cell-11 {
+      grid-column: 6 / span 1;
+}
+#cell-12 {
+      grid-column: 8 / span 1;
+}
+#cell-13 {
+      grid-column: 10 / span 1;
+}
+#cell-14 {
+      grid-column: 12 / span 1;
+}
+
+/* Zeile 6 */
+#cell-15 {
+      grid-column: 3 / span 1;
+}
+#cell-16 {
+      grid-column: 5 / span 1;
+}
+#cell-17 {
+      grid-column: 7 / span 1;
+}
+#cell-18 {
+      grid-column: 9 / span 1;
+}
+#cell-19 {
+      grid-column: 11 / span 1;
+}
+#cell-20 {
+      grid-column: 13 / span 1;
+}
+
+/* Zeile 7 */
+#cell-21 {
+      grid-column: 2 / span 1;
+}
+#cell-22 {
+      grid-column: 4 / span 1;
+}
+#cell-23 {
+      grid-column: 6 / span 1;
+}
+#cell-24 {
+      grid-column: 8 / span 1;
+}
+#cell-25 {
+      grid-column: 10 / span 1;
+}
+#cell-26 {
+      grid-column: 12 / span 1;
+}
+#cell-27 {
+      grid-column: 14 / span 1;
+}
+
+/* Zeile 8 */
+#cell-28 {
+      grid-column: 1 / span 1;
+}
+#cell-29 {
+      grid-column: 3 / span 1;
+}
+#cell-30 {
+      grid-column: 5 / span 1;
+}
+#cell-31 {
+      grid-column: 7 / span 1;
+}
+#cell-32 {
+      grid-column: 9 / span 1;
+}
+#cell-33 {
+      grid-column: 11 / span 1;
+}
+#cell-34 {
+      grid-column: 13 / span 1;
+}
+#cell-35 {
+      grid-column: 15 / span 1;
+}
+
+/* Zeile 9 */
+#cell-36 {
+      grid-column: 2 / span 1;
+}
+#cell-37 {
+      grid-column: 4 / span 1;
+}
+#cell-38 {
+      grid-column: 6 / span 1;
+}
+#cell-39 {
+      grid-column: 8 / span 1;
+}
+#cell-40 {
+      grid-column: 10 / span 1;
+}
+#cell-41 {
+      grid-column: 12 / span 1;
+}
+#cell-42 {
+      grid-column: 14 / span 1;
+}
+
+/* Zeile 10 */
+#cell-43 {
+      grid-column: 3 / span 1;
+}
+#cell-44 {
+      grid-column: 5 / span 1;
+}
+#cell-45 {
+      grid-column: 7 / span 1;
+}
+#cell-46 {
+      grid-column: 9 / span 1;
+}
+#cell-47 {
+      grid-column: 11 / span 1;
+}
+#cell-48 {
+      grid-column: 13 / span 1;
+}
+
+/* Zeile 11 */
+#cell-49 {
+      grid-column: 4 / span 1;
+}
+#cell-50 {
+      grid-column: 6 / span 1;
+}
+#cell-51 {
+      grid-column: 8 / span 1;
+}
+#cell-52 {
+      grid-column: 10 / span 1;
+}
+#cell-53 {
+      grid-column: 12 / span 1;
+}
+
+/* Zeile 12 */
+#cell-54 {
+      grid-column: 5 / span 1;
+}
+#cell-55 {
+      grid-column: 7 / span 1;
+}
+#cell-56 {
+      grid-column: 9 / span 1;
+}
+#cell-57 {
+      grid-column: 11 / span 1;
+}
+
+/* Zeile 13 */
+#cell-58 {
+      grid-column: 6 / span 1;
+}
+#cell-59 {
+      grid-column: 8 / span 1;
+}
+#cell-60 {
+      grid-column: 10 / span 1;
+}
+
+/* Zeile 14 */
+#cell-61 {
+      grid-column: 7 / span 1;
+}
+#cell-62 {
+      grid-column: 9 / span 1;
+}
+
+/* Zeile 15 */
+#cell-63 {
+      grid-column: 8 / span 1;
+}
